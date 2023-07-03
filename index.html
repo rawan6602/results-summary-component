@@ -4,14 +4,15 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Results Summary Component</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/style.css" />
   </head>
   <body>
-    <div id="app">
+    <main role="main" id="app">
+      
 
       <div class="container">
         <div class="left-side">
@@ -34,7 +35,7 @@
 
           <div class="record red ">
           <div class="value-name">
-            <img class="image" width="15px" src="/public/assets/images/icon-reaction.svg" /> 
+            <img class="image" width="15px" alt="icon" src="/public/assets/images/icon-reaction.svg" /> 
             <div class="record-value">Reaction</div>
           </div>
            <span class="total"> <span class="total-value">80</span> <span class="from-value">/ 100</span> </span></span>
@@ -42,7 +43,7 @@
           
           <div class="record yellow">
           <div class="value-name">
-            <img class="image" width="15px" src="/public/assets/images/icon-memory.svg" /> 
+            <img class="image" width="15px" alt="icon" src="/public/assets/images/icon-memory.svg" /> 
             <div class="record-value">Memory</div>
          </div>
             <span class="total"><span class="total-value">92</span> <span class="from-value"> / 100</span> </span></span>
@@ -50,7 +51,7 @@
           
           <div class="record green">
             <div class="value-name">
-            <img class="image" width="15px" src="/public/assets/images/icon-verbal.svg" /> 
+            <img class="image" width="15px" alt="icon" src="/public/assets/images/icon-verbal.svg" /> 
             <div class="record-value"> Verbal</div>
             </div>
             <span class="total"><span class="total-value">61</span> <span class="from-value">/ 100</span> </span></span>
@@ -58,7 +59,7 @@
           
           <div class="record purple">
             <div class="value-name">
-            <img class="image" width="15px" src="/public/assets/images/icon-visual.svg" /> 
+            <img class="image" width="15px" alt="icon" src="/public/assets/images/icon-visual.svg" /> 
             <div class="record-value">Visual</div>
           </div>
             <span class="total"><span class="total-value">72</span> <span class="from-value">/ 100</span> </span></span>
@@ -66,11 +67,13 @@
            <button class="continue">Continue</button>
         </div>
       </div>
-    </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="https://github.com/rawan6602">Rawan Essam</a>.
-    </div>
+    </main>
+    <footer role="contentinfo">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="https://github.com/rawan6602">Rawan Essam</a>.
+      </div>
+   </footer>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
